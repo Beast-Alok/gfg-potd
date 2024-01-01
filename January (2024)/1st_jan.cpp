@@ -5,9 +5,7 @@ using namespace std;
 class Solution {
   public:
     bool canPair(vector<int> nums, int k) {
-        // Code here.
         map <int, int> f;
-        
         for(int i = 0; i<nums.size(); i++){
             int current_value = nums[i] % k;
             int needed_value = (k - current_value) % k;
@@ -18,11 +16,11 @@ class Solution {
                 if(f[needed_value] == 0){
                     f.erase(needed_value);
                 }
+                
             }else{
                 ++f[current_value];
             }
         }
-        
         return f.size() == 0;
     }
 };
