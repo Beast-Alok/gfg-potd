@@ -10,6 +10,7 @@ I solved this problem by first forming subarray of required number of elements t
 - Now iterate from `n-1 to 0` by iterator `i` and insert the following changes in `dp`.
 - Now calculate the current sum of first `k` element from the array `a` by a for loop.(after this step we try to extend the subarray)
 - Now iterate from `k to n-1` and find the largest sum of the subarray by extending it further than `k` elements and record the higest sum.
+- At last return maximum sum.
 
 ### Time and Auxiliary Space Complexity
 
