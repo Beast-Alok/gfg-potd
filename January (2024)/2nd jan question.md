@@ -1,4 +1,4 @@
-## 01. Array Pair Sum Divisibility Problem
+## 01. Largest Sum Subarray of Size at least K Problem
 The problem can be found at the following link: [Question Link](https://www.geeksforgeeks.org/problems/largest-sum-subarray-of-size-at-least-k3121/1)
 
 Level : `Medium`
@@ -13,7 +13,7 @@ I solved this problem by first forming subarray of required number of elements t
 
 ### Time and Auxiliary Space Complexity
 
-- **Time Complexity** : O(n), where n is the size of the input vector.
+- **Time Complexity** : O(n), where n is the size of the input array.
 - **Auxiliary Space Complexity** : O(k), where k is the input parameter.
 
 ### Code (C++)
