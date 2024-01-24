@@ -1,5 +1,5 @@
-## 01. Course Schedule Problem
-The problem can be found at the following link: [Question Link](https://www.geeksforgeeks.org/course-schedule/1)
+## 01. Check if a given graph is tree or not Problem
+The problem can be found at the following link: [Question Link](https://www.geeksforgeeks.org/is-it-a-tree/1)
 
 Level : `Medium`
 
@@ -28,7 +28,7 @@ If all nodes are visited and the necessary condition is satisfied, the graph is 
 ### Time and Auxiliary Space Complexity
 
 - **Time Complexity** : O(N+M)
-- **Auxiliary Space Complexity** : O(N+M)
+- **Auxiliary Space Complexity** : O(N)
 
 ### Code (C++)
 ```cpp
