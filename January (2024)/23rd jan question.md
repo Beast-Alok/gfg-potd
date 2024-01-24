@@ -1,5 +1,5 @@
 ## 01. Course Schedule Problem
-The problem can be found at the following link: [Question Link](https://www.geeksforgeeks.org/course-schedule/1)
+The problem can be found at the following link: [Question Link](https://www.geeksforgeeks.org/problems/course-schedule/1)
 
 Level : `Medium`
 

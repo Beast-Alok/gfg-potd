@@ -1,5 +1,5 @@
 ## 01. Distribute candies in a binary tree Problem
-The problem can be found at the following link: [Question Link](https://www.geeksforgeeks.org/distribute-candies-in-a-binary-tree/1)
+The problem can be found at the following link: [Question Link](https://www.geeksforgeeks.org/problems/distribute-candies-in-a-binary-tree/1)
 
 Level : `Hard`
 

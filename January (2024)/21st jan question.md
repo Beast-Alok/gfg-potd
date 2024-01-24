@@ -1,5 +1,5 @@
 ## 01. Vertex Cover Problem
-The problem can be found at the following link: [Question Link](https://www.geeksforgeeks.org/vertex-cover/1)
+The problem can be found at the following link: [Question Link](https://www.geeksforgeeks.org/problems/vertex-cover/1)
 
 Level : `Hard`
 

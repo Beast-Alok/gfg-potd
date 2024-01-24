@@ -1,5 +1,5 @@
 ## 01. Paths from root with a specified sum Problem
-The problem can be found at the following link: [Question Link](https://www.geeksforgeeks.org/paths-from-root-with-a-specified-sum/1)
+The problem can be found at the following link: [Question Link](https://www.geeksforgeeks.org/problems/paths-from-root-with-a-specified-sum/1)
 
 Level : `Medium`
 

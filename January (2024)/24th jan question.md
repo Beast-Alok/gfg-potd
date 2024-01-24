@@ -1,5 +1,5 @@
 ## 01. Check if a given graph is tree or not Problem
-The problem can be found at the following link: [Question Link](https://www.geeksforgeeks.org/is-it-a-tree/1)
+The problem can be found at the following link: [Question Link](https://www.geeksforgeeks.org/problems/is-it-a-tree/1)
 
 Level : `Medium`
 
