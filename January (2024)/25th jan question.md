@@ -4,7 +4,7 @@ The problem can be found at the following link: [Question Link](https://www.geek
 Level : `Medium`
 
 ### My Approach
-- The solution class uses a breadth-first search (BFS) approach to find the shortest path from `num1` to `num2` by altering only a single digit at a time. The solution involves generating all possible four-digit prime numbers and then using BFS to explore the possible paths between `num1` and `num2`.
+The solution class uses a breadth-first search (BFS) approach to find the shortest path from `num1` to `num2` by altering only a single digit at a time. The solution involves generating all possible four-digit prime numbers and then using BFS to explore the possible paths between `num1` and `num2`.
 
 **Sieve of Eratosthenes**:
 The class initializes a boolean array p of size N+1 to mark whether a number is prime or not.
