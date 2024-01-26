@@ -4,7 +4,7 @@ The problem can be found at the following link: [Question Link](https://www.geek
 Level : `Medium`
 
 ### My Approach
-**Condition Check for Tree**:
+- **Condition Check for Tree**:
 The isTree function begins by checking a necessary condition for a graph to be a tree: the difference between the number of nodes (n) and the number of edges (m) should be 1. If this condition is not met, the graph cannot be a tree, and the function immediately returns 0.
 
 - **Graph Representation**:
