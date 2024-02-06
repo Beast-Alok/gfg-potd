@@ -10,32 +10,36 @@ Level : `Medium`
 **Private Function** - `getNodes`:
 
 **Parameters**:
-    - root: Pointer to the current node being processed.
-    - k: The target distance from leaf nodes.
-    - result: Reference to the counter for nodes at distance k from leaf nodes.
-    - leaves: Reference to the counter for leaf nodes.
+  - root: Pointer to the current node being processed.
+  - k: The target distance from leaf nodes.
+  - result: Reference to the counter for nodes at distance k from leaf nodes.
+  - leaves: Reference to the counter for leaf nodes.
+
 **Return Type**:
-    - Returns a set of integers representing distances from leaf nodes for the current node.
+  - Returns a set of integers representing distances from leaf nodes for the current node.
+
 **Functionality**:
-    - The function is a recursive helper that traverses the binary tree.
-    - Base Case: If the current node is a leaf node, it increments the leaves counter and returns a set with a single element 0 (distance from itself).
-    - Recursively calls itself on the left and right children, obtaining their distance sets.
-    - Combines the sets obtained from the left and right children, incrementing each distance by 1.
-    - If the target distance k is found in the combined set, increments the result counter.
-    - Returns the combined set for the current node.
+  - The function is a recursive helper that traverses the binary tree.
+  - Base Case: If the current node is a leaf node, it increments the leaves counter and returns a set with a single element 0 (distance from itself).
+  - Recursively calls itself on the left and right children, obtaining their distance sets.
+  - Combines the sets obtained from the left and right children, incrementing each distance by 1.
+  - If the target distance k is found in the combined set, increments the result counter.
+  - Returns the combined set for the current node.
 
 **Public Function** - `printKDistantfromLeaf`:
 
 **Parameters**:
-    - root: Pointer to the root of the binary tree.
-    - k: The target distance from leaf nodes.
+  - root: Pointer to the root of the binary tree.
+  - k: The target distance from leaf nodes.
+
 **Return Type**:
-    - Returns an integer representing the count of nodes at distance k from leaf nodes.
+  - Returns an integer representing the count of nodes at distance k from leaf nodes.
+
 **Functionality**:
-    - Initializes variables result and leaves to 0.
-    - Calls the private getNodes function with the root, k, result, and leaves.
-    - If k is 0, returns the count of leaf nodes (leaves).
-    - Otherwise, returns the count of nodes at distance k from leaf nodes (result).
+  - Initializes variables result and leaves to 0.
+  - Calls the private getNodes function with the root, k, result, and leaves.
+  - If k is 0, returns the count of leaf nodes (leaves).
+  - Otherwise, returns the count of nodes at distance k from leaf nodes (result).
 
 ### Time and Auxiliary Space Complexity
 
