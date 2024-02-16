@@ -1,7 +1,24 @@
-#include<bits/stdc++.h>
-using namespace std;
+## 01. Find all Critical Connections in the Graph Problem
+The problem can be found at the following link: [Question Link](https://www.geeksforgeeks.org/problems/critical-connections/1)
 
-// gfg solution from here
+Level : `Hard`
+
+### My Approach
+
+**cloneGraph Method**:
+
+- It has a member variable `timer` to keep track of the order in which nodes are visited during the depth-first search (DFS).
+- The `dfs` function is a recursive DFS function that finds critical connections in the graph using Tarjan's algorithm. It updates the `low` and `first` arrays, and whenever it encounters a bridge, it adds it to the `bridges` vector.
+
+### Time and Auxiliary Space Complexity
+
+- **Time Complexity** : O(v + e)
+- **Auxiliary Space Complexity** : O(v)
+
+### Code (C++)
+```cpp
+//User function Template for C++
+
 class Solution {
 public:
     int timer = 1;
@@ -43,25 +60,8 @@ public:
     }
 };
 
-int main(){
-	int tc;
-    cin >> tc;
-    while(tc--){
-        int V, E;
-        cin >> V >> E;
-        vector<int>adj[V];
-        for(int i = 0; i < E; i++){
-            int u, v;
-            cin >> u >> v;
-            adj[u].push_back(v);
-            adj[v].push_back(u);
-        }
-        Solution obj;
-        vector<vector<int>>ans = obj.criticalConnections(V, adj);
-        
-        for(int i=0;i<ans.size();i++)
-            cout<<ans[i][0]<<" "<<ans[i][1]<<endl;
-    }
-	return 0;
-}
-// code written by alok kumar raghuwanshi
+```
+
+### Contribution and Support
+
+If you find this solution helpful, consider supporting us by giving a `⭐ star` to the [Beast-ALok/gfg-potd](https://github.com/Beast-ALok/gfg-potd) repository.
